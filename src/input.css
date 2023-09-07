@@ -9,3 +9,9 @@
 * {
   font-family: 'Gotham book', sans-serif;
 }
+
+@layer components {
+  .link {
+    @apply cursor-pointer font-semibold;
+  }
+}

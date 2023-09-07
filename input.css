@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Gotham book';
-  src: url('../public/GothamBook.ttf');
+  src: url('../css/GothamBook.ttf');
 }
 * {
   font-family: 'Gotham book', sans-serif;

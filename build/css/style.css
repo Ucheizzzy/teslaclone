@@ -721,16 +721,16 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/\.\.\/images\/models\.jpg\'\)\] {
-  background-image: url('../../images/models.jpg');
+.bg-\[url\(\'\.\.\/images\/models\.jpg\'\)\] {
+  background-image: url('../images/models.jpg');
 }
 
-.bg-\[url\(\'\.\.\/\.\.\/images\/modely\.jpg\'\)\] {
-  background-image: url('../../images/modely.jpg');
+.bg-\[url\(\'\.\.\/images\/modely\.jpg\'\)\] {
+  background-image: url('../images/modely.jpg');
 }
 
-.bg-\[url\(\'\.\.\/\.\.\/images\/access\.jpg\'\)\] {
-  background-image: url('../../images/access.jpg');
+.bg-\[url\(\'\.\.\/images\/access\.jpg\'\)\] {
+  background-image: url('../images/access.jpg');
 }
 
 .bg-cover {
@@ -828,7 +828,7 @@ video {
 @font-face {
   font-family: 'Gotham book';
 
-  src: url('../public/GothamBook.ttf');
+  src: url('../css/GothamBook.ttf');
 }
 
 * {

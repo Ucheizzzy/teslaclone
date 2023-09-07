@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./build/css/style.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./build/css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "tailwindcss": "^3.1.8"
   }
